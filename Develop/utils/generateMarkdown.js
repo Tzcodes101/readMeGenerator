@@ -9,13 +9,13 @@ function generateMarkdown(data) {
     ${data.description}
 
     ## Table of Contents: 
-    - [Description](#description)
-    - [Installation](#installation)
-    - [Usage](#usage)
-    - [License](#license)
-    - [Contributors](#contributors)
-    - [Test Instructions](#test instructions)
-    - [Questions](#questions)
+    - [Description](#Description)
+    - [Installation](#Installation)
+    - [Usage](#Usage)
+    - [License](#License)
+    - [Contributors](#Contributors)
+    - [Testing](#Testing)
+    - [Questions](#Questions)
 
     ## Installation:
     ${data.install}
@@ -33,7 +33,7 @@ function generateMarkdown(data) {
     ## Contributors:
     ${data.contributing}
 
-    ## Test Instructions:
+    ## Testing:
     ${data.testInst}
 
     ## Questions:
